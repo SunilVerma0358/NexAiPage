@@ -1,38 +1,61 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+* {
+    scroll-behavior: smooth;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face {
+    font-family: "Recharge";
+    src: url(./assets/font/recharge\ bd.otf);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+@font-face {
+    font-family: "Neuropolitical";
+    src: url(./assets/font/neuropolitical\ rg.otf);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.ff-Recharge {
+    font-family: "Recharge";
 }
 
-.App-link {
-  color: #61dafb;
+.ff-Neuropolitical {
+    font-family: "Neuropolitical";
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.bg-size {
+    background-size: 100% 100%;
+}
+
+.slick-slide {
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+}
+
+.sliderTwo.slick-slide {
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+}
+
+.bg-img {
+    background-image: url(../src/assets/image/FooterBg.webp);
+}
+
+.overflow_hidden::-webkit-scrollbar {
+    display: none;
+}
+
+.common_btn:hover {
+    animation: pulsegardiant 1s linear;
+    box-shadow: 0 0 0 0.7em transparent;
+}
+
+@keyframes pulsegardiant {
+    0% {
+        box-shadow: 0 0 #02CDCF;
+    }
+}
+
+@media (max-width:1024px) {
+    .overflow {
+        overflow: hidden;
+    }
 }
