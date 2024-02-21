@@ -41,7 +41,7 @@ const NextAi = () => {
           </div>
         </div>
         <div className="bg-[#02CDCF] w-[228px] h-[140px]  lg:h-[160px] absolute right-[-10%] top-[40%] blur-[300px] z-[-1] "></div>
-        <div className="bg-[#02CDCF] w-[228px] h-[140px]  lg:h-[160px] absolute left-[-10%] bottom-0 blur-[180px] z-[-1] "></div>
+        <div className="bg-[#02CDCF] w-[228px] h-[140px]  lg:h-[160px] absolute left-[-10%] bottom-0 blur-[160px] z-[-1] "></div>
       </div>
     </div>
   );

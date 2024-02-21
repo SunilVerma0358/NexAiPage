@@ -3,7 +3,7 @@ import { Clock, ClockPlus } from "./common/SvgExport";
 const Features = () => {
   return (
     <div id="Features" className="px-3 lg:px-12 py-12 sm:py-16  md:py-20">
-      <div className="max-w-[1340px] mx-auto px-6 lg:px-24 border border-[#FCFCFC] bg-[url(../src/assets/image/FeaturesBg.webp)] bg-cover bg-no-repeat bg-center rounded-[32px] xl:min-h-[810px] overflow-hidden relative z-[1] ">
+      <div className="max-w-[1340px] mx-auto px-6 lg:px-24 border border-[#FCFCFC] bg-[url(../src/assets/image/FeaturesBg.webp)] bg-cover bg-no-repeat bg-center rounded-[32px] overflow-hidden relative z-[1] ">
         <h2 className=" ff-Recharge font-bold text-2xl sm:text-[30px] lg:text-[40px] text-white leading-[35px] sm:leading-[40px] lg:leading-[50.4px] text-center pt-12 sm:pt-16 md:pt-20 ">
           Unique features
         </h2>

@@ -92,8 +92,8 @@ const BlockChain = () => {
           ))}
         </Slider>
       </div>{" "}
-      <div className="bg-[#02CDCF] w-[228px] h-[140px]  lg:h-[160px]  absolute right-[-6%] top-[25%] blur-[200px] z-[-1] "></div>
-      <div className="bg-[#02CDCF] w-[228px] h-[140px]  lg:h-[160px]  absolute left-[-10%] top-[30%] blur-[200px] z-[-1] "></div>
+      <div className="bg-[#02CDCF] w-[228px] h-[140px]  lg:h-[160px]  absolute right-[-6%] top-[25%] blur-[190px] z-[-1] "></div>
+      <div className="bg-[#02CDCF] w-[228px] h-[140px]  lg:h-[160px]  absolute left-[-10%] top-[30%] blur-[190px] z-[-1] "></div>
       <div className=" absolute right-0 top-0 z-[-1] max-w-[40px] sm:max-w-[60px]  ">
         <img src={BlockChainEllips} alt="img" />
       </div>
