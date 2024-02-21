@@ -35,10 +35,6 @@
     padding-right: 5px !important;
 }
 
-.bg-img {
-    background-image: url(../src/assets/image/FooterBg.webp);
-}
-
 .overflow_hidden::-webkit-scrollbar {
     display: none;
 }

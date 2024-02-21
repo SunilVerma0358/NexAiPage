@@ -6,13 +6,13 @@ const Powered = () => {
     <div id="MarketPlace" className="relative overflow-hidden z-[1]">
       <div className="max-w-[1140px] px-3 mx-auto pb-12 sm:py-16 md:py-20 lg:py-36 ">
         <div className="flex flex-wrap flex-row -mx-3">
-          <div className="w-full md:w-6/12 px-3">
+          <div className="w-full md:w-6/12 px-3 lg:pe-[38px]">
             <div data-aos="zoom-in" className="max-w-[612px] mx-auto relative">
               <img className="w-full" src={poweredImg} alt="powered" />
               <div className="bg-[#02CDCF] w-[228px] h-[140px]  lg:h-[160px]  absolute right-[20%] top-[40%] blur-[170px] z-[-1] "></div>
             </div>
           </div>
-          <div className="w-full md:w-6/12 px-3 pt-6 md:pt-0">
+          <div className="w-full md:w-6/12 px-3 pt-6 md:pt-0 lg:ps-[38px]">
             <h2 className="ff-Recharge font-normal text-2xl sm:text-3xl lg:text-[40px]  text-[#02CDCF] leading-[35px] sm:leading-[40px] md:lg:leading-[35px] lg:leading-[50.4px] ">
               Ai-Powered Home Assistant
             </h2>
@@ -37,7 +37,7 @@ const Powered = () => {
           </div>
         </div>
       </div>
-      <div className="bg-[#02CDCF] w-[228px] h-[140px]  lg:h-[160px]  absolute right-[-10%] top-[40%] blur-[200px] z-[-1] "></div>
+      <div className="bg-[#02CDCF] w-[228px] h-[140px] lg:h-[160px] absolute right-[-10%] top-[40%] blur-[200px] z-[-1] "></div>
     </div>
   );
 };

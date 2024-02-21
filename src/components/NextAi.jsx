@@ -1,10 +1,10 @@
 import React from "react";
 import Button from "./common/Button";
-import NextAiImg from "../assets/image/NextAiMainImg.webp";
+import NextAiImg from "../assets/image/NextAiMain.webp";
 const NextAi = () => {
   return (
     <div className="px-3 sm:px-6 lg:px-12 py-12 sm:py-16 lg:py-20 ">
-      <div className="max-w-[1340px] mx-auto px-6 lg:px-24 py-12 sm:py-16  border border-[#FCFCFC] bg-[url(../src/assets/image/NextAiBg.webp)] bg-cover bg-no-repeat bg-center rounded-[32px] xl:min-h-[810px] overflow-hidden relative flex items-center z-[1]  ">
+      <div className="max-w-[1340px] mx-auto px-6 xl:px-24 py-12 sm:py-16 lg:py-28 xl:py-40  border border-[#FCFCFC] bg-[url(../src/assets/image/NextAiBg.webp)] bg-cover bg-no-repeat bg-center rounded-[32px] overflow-hidden relative flex items-center z-[1]  ">
         <div className=" flex lg:flex-row flex-wrap flex-col-reverse items-center -mx-3 ">
           <div className="w-full lg:w-6/12 px-3 pt-6 lg:pt-0">
             <h2 className="ff-Recharge font-normal text-2xl sm:text-[30px] lg:text-[40px] text-[#02CDCF] leading-[35px] sm:leading-[40px] lg:leading-[50.4px] ">
@@ -28,19 +28,20 @@ const NextAi = () => {
             </p>
             <Button btn="Learn More" classname="mt-6 sm:mt-9 md:mt-12" />
           </div>
-          <div className="w-full lg:w-6/12 px-3 ">
+          <div className="w-full lg:w-6/12 px-3 xl:ps-8 ">
             {" "}
-            <div className=" mix-blend-Lighten">
+            <div className=" mix-blend-multiply relative z-10 ">
               <img
-                className="rounded-3xl mx-auto"
+                className=" mx-auto rounded-[400px]"
                 src={NextAiImg}
                 alt="NextAiImg"
               />
+              <div className="bg-[#02CDCF] max-w-[468px] mx-auto h-[463px] rounded-[500px] absolute top-0 left-0 right-0 bottom-0 blur-[276px]"></div>
             </div>
           </div>
         </div>
-        <div className="bg-[#02CDCF] w-[228px] h-[140px]  lg:h-[160px]  absolute right-[-10%] top-[40%] blur-[200px] z-[-1] "></div>
-        <div className="bg-[#02CDCF] w-[228px] h-[140px]  lg:h-[160px]  absolute left-[-10%] bottom-0 blur-[180px] z-[-1] "></div>
+        <div className="bg-[#02CDCF] w-[228px] h-[140px]  lg:h-[160px] absolute right-[-10%] top-[40%] blur-[300px] z-[-1] "></div>
+        <div className="bg-[#02CDCF] w-[228px] h-[140px]  lg:h-[160px] absolute left-[-10%] bottom-0 blur-[180px] z-[-1] "></div>
       </div>
     </div>
   );

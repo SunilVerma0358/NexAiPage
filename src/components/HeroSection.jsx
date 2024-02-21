@@ -4,8 +4,8 @@ import Button from "./common/Button";
 
 const HeroSection = () => {
   return (
-    <div className="bg-[#040404] px-4 sm:px-6 md:px-8 pb-14 relative">
-      <div className=" bg-[url(../src/assets/image/HeroMainImg.webp)] h-screen sm:min-h-[810px] bg-no-repeat bg-cover bg-size bg-center flex flex-col object-cover">
+    <div className="bg-[#040404] px-4 sm:px-6 md:px-8 pb-14 relative z-10">
+      <div className=" bg-[url(../src/assets/image/HeroMainImg.webp)] h-screen sm:min-h-[810px] bg-no-repeat bg-cover bg-size flex flex-col object-cover relative z-10">
         <div>
           <NextAiNav />
         </div>
@@ -32,6 +32,7 @@ const HeroSection = () => {
           </div>
           <div className=" bg-layer h-[106px] absolute bottom-0 right-0 left-0 w-full blur-2xl"></div>
         </div>
+        <div className="bg-[#02CDCF] w-[262px] h-[140px]  lg:h-[262px]  absolute left-0 top-[20%] opacity-30 blur-[140px] z-[-1] "></div>
       </div>
     </div>
   );
