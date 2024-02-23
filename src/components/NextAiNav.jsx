@@ -13,7 +13,7 @@ const NextAiNav = () => {
   }
   return (
     <>
-      <div className="max-w-[900px] sm:px-3 lg:ms-auto lg:me-[120px] pt-[31px]">
+      <div className="max-w-[775px] 2xl:max-w-[900px] sm:px-3 lg:ms-auto lg:me-[120px] pt-[31px]">
         <nav className="flex justify-between items-center">
           <div
             className={`${

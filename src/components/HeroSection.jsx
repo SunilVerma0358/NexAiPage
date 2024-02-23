@@ -5,7 +5,7 @@ import Button from "./common/Button";
 const HeroSection = () => {
   return (
     <div className="bg-[#040404] px-4 sm:px-6 md:px-8 pb-14 relative z-10">
-      <div className=" bg-[url(../src/assets/image/HeroMainImg.webp)] h-screen sm:min-h-[810px] bg-no-repeat bg-cover bg-size flex flex-col object-cover relative z-10">
+      <div className=" max-md:bg-[url(../src/assets/image/HerosmallImg.webp)] md:bg-[url(../src/assets/image/HeroMainImg.webp)] h-screen sm:min-h-[810px] bg-no-repeat bg-cover bg-size max-md:bg-right flex flex-col object-cover relative z-10">
         <div>
           <NextAiNav />
         </div>

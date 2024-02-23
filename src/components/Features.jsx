@@ -1,5 +1,5 @@
 import React from "react";
-import { Clock, ClockPlus } from "./common/SvgExport";
+import { Clock, ClockPlus, FeatureseSvg, Message } from "./common/SvgExport";
 const Features = () => {
   return (
     <div id="Features" className="px-3 lg:px-12 py-12 sm:py-16  md:py-20">
@@ -11,7 +11,7 @@ const Features = () => {
           ability to engage in natural, fluent conversations in over 15
           languages,
         </p>
-        <div className="flex flex-row flex-wrap -mx-3 overflow-y-scroll overflow_hidden max-h-[500px]  pt-7 sm:pt-9 md:pt-12">
+        <div className="flex flex-row flex-wrap -mx-3 overflow-y-scroll overflow_hidden max-h-[500px] pt-7 sm:pt-9 md:pt-12">
           <div className="w-full lg:w-6/12 px-3 ">
             {" "}
             <div className=" group cursor-pointer max-w-[364px] bg-white rounded-2xl p-4 sm:p-6 md:p-[30px_24px_56px_24px] mx-auto lg:mx-0">
@@ -32,17 +32,16 @@ const Features = () => {
             <div className="h-[150px] md:h-[270px]"></div>
             <div className="group cursor-pointer max-w-[364px] bg-white rounded-2xl p-4 sm:p-6 md:p-[30px_24px_56px_24px] mx-auto lg:mx-0">
               <div>
-                <Clock />
+                <Message />
               </div>
               <h3 className=" ff-Recharge font-bold text-[#0B0A0A]  text-base sm:text-lg md:text-xl leading-[25px] md:leading-[32px] pt-4 sm:pt-[30px] group-hover:text-[#02CDCF] duration-300">
-                Remote Access and File Management
+                Autonomous and Natural Language Communication
               </h3>
               <p className=" font-Poppins font-normal text-black text-sm sm:text-base leading-[22px] sm:leading-[25.6px] opacity-70 pt-[10px]">
                 {" "}
-                Imagine you're at work, and you realize you forgot to bring an
-                important file stored on your desktop computer at home. No
-                worries! Simply open the Nexai app on your phone, initiate a
-                call with Nexai, and request access to your computer.{" "}
+                Nexai goes beyond standard home assistants by taking proactive
+                initiatives and engaging in natural language conversations. It
+                communicates with you as if you're talking to a friend,
               </p>
             </div>{" "}
             <div className="h-[200px] md:h-[270px]"></div>
@@ -69,7 +68,8 @@ const Features = () => {
                 <ClockPlus />
               </div>
               <h3 className=" ff-Recharge font-bold text-[#0B0A0A]  text-base sm:text-lg md:text-xl leading-[25px] md:leading-[32px] pt-4 sm:pt-[30px] group-hover:text-[#02CDCF] duration-300">
-                Real-time Home Monitoring{" "}
+                {" "}
+                Real-time Home Monitoring
               </h3>
               <p className=" font-Poppins font-normal text-black text-sm sm:text-base leading-[22px] sm:leading-[25.6px] opacity-70 pt-[10px]">
                 While you're out with your family, you may wonder if you
@@ -82,17 +82,18 @@ const Features = () => {
             <div className="h-[150px] md:h-[270px]"></div>
             <div className=" group cursor-pointer max-w-[364px] bg-white rounded-2xl p-4 sm:p-6 md:p-[30px_24px_56px_24px] mx-auto lg:me-0 lg:ms-auto">
               <div>
-                <ClockPlus />
+                <FeatureseSvg />
               </div>
               <h3 className=" ff-Recharge font-bold text-[#0B0A0A]  text-base sm:text-lg md:text-xl leading-[25px] md:leading-[32px] pt-4 sm:pt-[30px] group-hover:text-[#02CDCF] duration-300">
-                Real-time Home Monitoring{" "}
+                Intelligent Contextual Awareness
               </h3>
               <p className=" font-Poppins font-normal text-black text-sm sm:text-base leading-[22px] sm:leading-[25.6px] opacity-70 pt-[10px]">
-                While you're out with your family, you may wonder if you
-                remembered to turn off the stove. Thanks to Nexai, this is no
-                longer a concern. Using the Nexai app, you can initiate a video
-                call with Nexai and activate the mini drone stationed in your
-                home.
+                {" "}
+                Nexai utilizes the hardware sensors placed throughout your home
+                to understand your location and deliver relevant information or
+                actions. For instance, if you're in the bedroom and there's a
+                smart TV present, Nexai will automatically display on the TV
+                screen.
               </p>
             </div>
           </div>

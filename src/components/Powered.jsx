@@ -9,7 +9,7 @@ const Powered = () => {
           <div className="w-full md:w-6/12 px-3 lg:pe-[38px]">
             <div data-aos="zoom-in" className="max-w-[612px] mx-auto relative">
               <img className="w-full" src={poweredImg} alt="powered" />
-              <div className="bg-[#02CDCF] w-[228px] h-[140px]  lg:h-[160px]  absolute right-[20%] top-[40%] blur-[170px] z-[-1] "></div>
+              <div className="bg-[#02CDCF] w-[228px] h-[140px]  lg:h-[160px]  absolute right-[20%] top-[40%] blur-[170px] "></div>
             </div>
           </div>
           <div className="w-full md:w-6/12 px-3 pt-6 md:pt-0 lg:ps-[38px]">

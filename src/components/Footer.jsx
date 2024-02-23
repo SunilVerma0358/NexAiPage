@@ -38,13 +38,13 @@ const Footer = () => {
           <div className="w-full md:w-5/12 px-3  pt-6 md:pt-0">
             <div className="flex flex-row flex-wrap -mx-3">
               <div className="w-6/12 px-3">
-                <p className="ff-Recharge font-bold text-base sm:text-lg text-white leading-[21.6px]">
+                <p className="ff-Recharge font-bold text-base sm:text-[17px] lg:text-lg text-white leading-[21.6px]">
                   Quick links
                 </p>
                 <ul>
                   <li className="pt-3 sm:pt-5">
                     <a
-                      href="#!"
+                      href="#Home"
                       className="ff-Recharge font-bold text-sm sm:text-base text-white leading-[21.6px] opacity-70 border-transparent border-y-[1px] rounded-sm hover:border-[#02CDCF] duration-300 ease-linear hover:text-[#02CDCF] py-1 "
                     >
                       Home
@@ -52,7 +52,7 @@ const Footer = () => {
                   </li>
                   <li className="pt-3 sm:pt-5">
                     <a
-                      href="#!"
+                      href="#Features"
                       className="ff-Recharge font-bold text-sm sm:text-base text-white leading-[21.6px] opacity-70 border-transparent border-y-[1px] rounded-sm hover:border-[#02CDCF] duration-300 ease-linear hover:text-[#02CDCF] py-1"
                     >
                       Features
@@ -60,7 +60,7 @@ const Footer = () => {
                   </li>
                   <li className="pt-3 sm:pt-5">
                     <a
-                      href="#!"
+                      href="#MarketPlace"
                       className="ff-Recharge font-bold text-sm sm:text-base text-white leading-[21.6px] opacity-70 border-transparent border-y-[1px] rounded-sm hover:border-[#02CDCF] duration-300 ease-linear hover:text-[#02CDCF] py-1"
                     >
                       Marketplace
@@ -68,7 +68,7 @@ const Footer = () => {
                   </li>
                   <li className="pt-3 sm:pt-5">
                     <a
-                      href="#!"
+                      href="#Token"
                       className="ff-Recharge font-bold text-sm sm:text-base text-white leading-[21.6px] opacity-70 border-transparent border-y-[1px] rounded-sm hover:border-[#02CDCF] duration-300 ease-linear hover:text-[#02CDCF] py-1"
                     >
                       Tokens
@@ -76,7 +76,7 @@ const Footer = () => {
                   </li>
                   <li className="pt-3 sm:pt-5">
                     <a
-                      href="#!"
+                      href="#AndMore"
                       className="ff-Recharge font-bold text-sm sm:text-base text-white leading-[21.6px] opacity-70 border-transparent border-y-[1px] rounded-sm hover:border-[#02CDCF] duration-300 ease-linear hover:text-[#02CDCF] py-1"
                     >
                       NexChat
@@ -84,7 +84,7 @@ const Footer = () => {
                   </li>
                   <li className="pt-3 sm:pt-5">
                     <a
-                      href="#!"
+                      href="#About"
                       className="ff-Recharge font-bold text-sm sm:text-base text-white leading-[21.6px] opacity-70 border-transparent border-y-[1px] rounded-sm hover:border-[#02CDCF] duration-300 ease-linear hover:text-[#02CDCF] py-1"
                     >
                       About
@@ -93,7 +93,7 @@ const Footer = () => {
                 </ul>
               </div>
               <div className="w-6/12 px-3">
-                <p className="ff-Recharge font-bold text-base sm:text-lg text-white leading-[21.6px]">
+                <p className="ff-Recharge font-bold text-base sm:text-[17px] lg:text-lg text-white leading-[21.6px]">
                   Information's
                 </p>
                 <ul>

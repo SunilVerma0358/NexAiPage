@@ -21,10 +21,6 @@
     font-family: "Neuropolitical";
 }
 
-.bg-size {
-    background-size: 100% 100%;
-}
-
 .slick-slide {
     padding-left: 5px !important;
     padding-right: 5px !important;
@@ -47,6 +43,12 @@
 @keyframes pulsegardiant {
     0% {
         box-shadow: 0 0 #02CDCF;
+    }
+}
+
+@media (min-width:768px) {
+    .bg-size {
+        background-size: 100% 100%;
     }
 }
 
